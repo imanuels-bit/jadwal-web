@@ -9,7 +9,7 @@
   const burger = document.getElementById("burger");
   const clock = document.getElementById("clock");
 
-  // Mapping JS Date.getDay() -> id hari di jadwal (Minggu = libur, fallback Senin)
+  
   const todayMap = ["senin", "senin", "selasa", "rabu", "kamis", "jumat", "senin"];
 
   function showDay(day) {
@@ -43,7 +43,7 @@
     if (e.key === "Escape") closeDrawer();
   });
 
-  // Jam WITA (kampus Unmul di Samarinda, UTC+8)
+  
   function tick() {
     try {
       clock.textContent =
